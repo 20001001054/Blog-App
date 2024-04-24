@@ -3,7 +3,7 @@ import React from 'react'
 function Logo({widt = "100px"}) {
   return (
     <div>
-      Logo
+      ©K.K
     </div>
   )
 }
