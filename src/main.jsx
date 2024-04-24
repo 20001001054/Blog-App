@@ -7,14 +7,10 @@ import store from './Store/store.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import { AuthLayout, Login } from './components/index.js'
-
-
 import AddPost from "./pages/AddPost";
 import Signup from './pages/SignUp'
 import EditPost from "./pages/EditPosts";
-
 import Post from "./pages/Post";
-
 import AllPosts from "./pages/AllPost";
 
 const router = createBrowserRouter([
