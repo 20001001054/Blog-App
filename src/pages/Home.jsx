@@ -13,7 +13,7 @@ function Home() {
         })
     }, [])
   
-    if (posts.length === 0 ) {
+    if (posts.length === 0) {
         return (
             <div className="w-full py-8 mt-4 text-center">
                 <Container>
@@ -22,6 +22,9 @@ function Home() {
                             <h1 className="text-2xl font-bold hover:text-gray-500">
                                 Login to read posts
                             </h1>
+                            <h3 className='mt-6px'>
+                            If already logged in, Click on all posts to see posts
+                            </h3>
                         </div>
                     </div>
                 </Container>
